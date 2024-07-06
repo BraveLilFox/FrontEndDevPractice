@@ -33,3 +33,12 @@ console.log(`Online: ${online}`);
 console.log(`Is this car for sale: ${forSale}`);
 console.log(`Enrolled: ${student}`);
 console.log(typeof online);
+
+// Example on how to use variables to manipulate elements in HTML
+let fullName = `Kaide Ryder Potchka`;
+let age = 19;
+let studentStatus = true;
+
+document.getElementById("p1").textContent = `Your name is ${fullName}`;
+document.getElementById("p2").textContent = `You are ${age} years old today!`;
+document.getElementById("p3").textContent = `Enrolled: ${studentStatus}`;
