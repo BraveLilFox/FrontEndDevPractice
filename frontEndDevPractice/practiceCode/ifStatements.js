@@ -50,3 +50,20 @@ else{
 }
 
 //Ex. 5
+let age = window.prompt("What is your age?");
+
+if(age >= 100){
+    document.getElementById("myP").textContent = "You are TOO old to use this site.";
+}
+else if(age == 0){
+    document.getElementById("myP").textContent = "You were just born, you cannot use this site";
+}
+else if(age >= 18){
+    document.getElementById("myP").textContent = "You are old enough to use this site.";
+}
+else if(age < 0){
+    document.getElementById("myP").textContent = "You can't be under 0 years old.";
+}
+else{
+    document.getElementById("myP").textContent = "You must be 18+ to use this website.";
+}
