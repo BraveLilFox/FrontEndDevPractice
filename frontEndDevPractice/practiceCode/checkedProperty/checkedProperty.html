@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Website</title>
 
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <input type="checkbox" id="monthlyCheck" name="subscription">
+        <label for="monthlyCheck">Monthly Subscription</label><br><br>
+
+        <input type="radio" id="visaRadio" name="cardType">
+        <label for="visaRadio">Visa Card</label><br>
+        <input type="radio" id="masterCardRadio" name="cardType">
+        <label for="masterCardRadio">MasterCard</label><br>
+        <input type="radio" id="payPalRadio" name="cardType">
+        <label for="payPalRadio">PayPal</label><br><br>
+
+        <button type="submit" id="mySubmitBtn">SUBMIT</button><br><br>
+
+        <p id="subResult"></p>
+        <p id="cardResult"></p>
+
+        <script src="main.js"></script>
+    </body>
+</html>
