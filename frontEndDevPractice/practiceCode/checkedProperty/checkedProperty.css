@@ -1,0 +1,9 @@
+body{
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+
+#mySubmitBtn{
+    font-size: .5em;
+    padding: 1em;
+}
