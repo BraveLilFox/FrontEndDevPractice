@@ -25,3 +25,12 @@ let lastName = fullName.slice(fullName.indexOf(" ") +1);
 
 console.log(firstName);
 console.log(lastName);
+
+// Ex 3
+const email = "thatbandkid23@icloud.com";
+
+let username = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@")+1);
+
+console.log(username);
+console.log(extension);
